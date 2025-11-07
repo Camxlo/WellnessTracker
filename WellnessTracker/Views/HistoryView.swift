@@ -19,7 +19,7 @@ struct HistoryView: View {
             .filter { e in (fromDate == nil || e.date >= fromDate!) && (toDate == nil || e.date <= toDate!) }
             .sorted(by: { sortDesc ? $0.date > $1.date : $0.date < $1.date })
     }
-
+    //Cuerpo
     var body: some View {
         VStack {
             // Filtros compactos
