@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0943A62EBE32BD00102C61 /* NotificacionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0943A52EBE32BD00102C61 /* NotificacionService.swift */; };
+		FF2481962EBE36B300CD0164 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2481952EBE36B300CD0164 /* EmptyStateView.swift */; };
+		FF24CA2C2EBDA6F900A44FA5 /* WellnessTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA2B2EBDA6F900A44FA5 /* WellnessTrackerApp.swift */; };
+		FF24CA2E2EBDA6F900A44FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA2D2EBDA6F900A44FA5 /* ContentView.swift */; };
+		FF24CA302EBDA6FA00A44FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF24CA2F2EBDA6FA00A44FA5 /* Assets.xcassets */; };
+		FF24CA342EBDA6FA00A44FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF24CA332EBDA6FA00A44FA5 /* Preview Assets.xcassets */; };
+		FF24CA592EBDF73E00A44FA5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA582EBDF73E00A44FA5 /* Models.swift */; };
+		FF24CA5B2EBDF77900A44FA5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA5A2EBDF77900A44FA5 /* RootView.swift */; };
+		FF24CA5D2EBDF78D00A44FA5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA5C2EBDF78D00A44FA5 /* DashboardView.swift */; };
+		FF24CA5F2EBDF79F00A44FA5 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA5E2EBDF79F00A44FA5 /* NewEntryView.swift */; };
+		FF24CA612EBDF7AF00A44FA5 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA602EBDF7AF00A44FA5 /* HistoryView.swift */; };
+		FF24CA632EBDF7BF00A44FA5 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA622EBDF7BF00A44FA5 /* EntryDetailView.swift */; };
+		FF24CA652EBDF83700A44FA5 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA642EBDF83700A44FA5 /* StatsView.swift */; };
+		FF24CA672EBDF84700A44FA5 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA662EBDF84700A44FA5 /* AboutView.swift */; };
+		FF24CA6A2EBE03F500A44FA5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FF24CA692EBE03F500A44FA5 /* FirebaseFirestore */; };
+		FF24CA6C2EBE0E1700A44FA5 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24CA6B2EBE0E1700A44FA5 /* FirestoreService.swift */; };
+		FF9D38422EBE33160016E46E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D38412EBE33160016E46E /* SettingsView.swift */; };
+		FFE383312EBE267B008B9845 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFE383302EBE267B008B9845 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF24CA3A2EBDA6FA00A44FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF24CA202EBDA6F900A44FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF24CA272EBDA6F900A44FA5;
+			remoteInfo = WellnessTracker;
+		};
+		FF24CA442EBDA6FA00A44FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF24CA202EBDA6F900A44FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF24CA272EBDA6F900A44FA5;
+			remoteInfo = WellnessTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF0943A52EBE32BD00102C61 /* NotificacionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionService.swift; sourceTree = "<group>"; };
+		FF2481952EBE36B300CD0164 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		FF24CA282EBDA6F900A44FA5 /* WellnessTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellnessTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF24CA2B2EBDA6F900A44FA5 /* WellnessTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessTrackerApp.swift; sourceTree = "<group>"; };
+		FF24CA2D2EBDA6F900A44FA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF24CA2F2EBDA6FA00A44FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF24CA312EBDA6FA00A44FA5 /* WellnessTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WellnessTracker.entitlements; sourceTree = "<group>"; };
+		FF24CA332EBDA6FA00A44FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF24CA392EBDA6FA00A44FA5 /* WellnessTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellnessTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF24CA432EBDA6FA00A44FA5 /* WellnessTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellnessTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF24CA582EBDF73E00A44FA5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FF24CA5A2EBDF77900A44FA5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FF24CA5C2EBDF78D00A44FA5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FF24CA5E2EBDF79F00A44FA5 /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		FF24CA602EBDF7AF00A44FA5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FF24CA622EBDF7BF00A44FA5 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		FF24CA642EBDF83700A44FA5 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		FF24CA662EBDF84700A44FA5 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		FF24CA6B2EBE0E1700A44FA5 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		FF9D38412EBE33160016E46E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FFE383302EBE267B008B9845 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF24CA252EBDA6F900A44FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF24CA6A2EBE03F500A44FA5 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF24CA362EBDA6FA00A44FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF24CA402EBDA6FA00A44FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF24CA1F2EBDA6F900A44FA5 = {
+			isa = PBXGroup;
+			children = (
+				FF24CA2A2EBDA6F900A44FA5 /* WellnessTracker */,
+				FF24CA292EBDA6F900A44FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF24CA292EBDA6F900A44FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF24CA282EBDA6F900A44FA5 /* WellnessTracker.app */,
+				FF24CA392EBDA6FA00A44FA5 /* WellnessTrackerTests.xctest */,
+				FF24CA432EBDA6FA00A44FA5 /* WellnessTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF24CA2A2EBDA6F900A44FA5 /* WellnessTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FFE383302EBE267B008B9845 /* GoogleService-Info.plist */,
+				FF24CA572EBDF70B00A44FA5 /* Models */,
+				FF24CA562EBDF6CD00A44FA5 /* Views */,
+				FF24CA2B2EBDA6F900A44FA5 /* WellnessTrackerApp.swift */,
+				FF24CA2D2EBDA6F900A44FA5 /* ContentView.swift */,
+				FF24CA2F2EBDA6FA00A44FA5 /* Assets.xcassets */,
+				FF24CA312EBDA6FA00A44FA5 /* WellnessTracker.entitlements */,
+				FF24CA322EBDA6FA00A44FA5 /* Preview Content */,
+			);
+			path = WellnessTracker;
+			sourceTree = "<group>";
+		};
+		FF24CA322EBDA6FA00A44FA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF24CA332EBDA6FA00A44FA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF24CA562EBDF6CD00A44FA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF24CA5A2EBDF77900A44FA5 /* RootView.swift */,
+				FF24CA5C2EBDF78D00A44FA5 /* DashboardView.swift */,
+				FF24CA5E2EBDF79F00A44FA5 /* NewEntryView.swift */,
+				FF24CA602EBDF7AF00A44FA5 /* HistoryView.swift */,
+				FF24CA622EBDF7BF00A44FA5 /* EntryDetailView.swift */,
+				FF24CA642EBDF83700A44FA5 /* StatsView.swift */,
+				FF24CA662EBDF84700A44FA5 /* AboutView.swift */,
+				FF9D38412EBE33160016E46E /* SettingsView.swift */,
+				FF2481952EBE36B300CD0164 /* EmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF24CA572EBDF70B00A44FA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF24CA582EBDF73E00A44FA5 /* Models.swift */,
+				FF24CA6B2EBE0E1700A44FA5 /* FirestoreService.swift */,
+				FF0943A52EBE32BD00102C61 /* NotificacionService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF24CA272EBDA6F900A44FA5 /* WellnessTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF24CA4D2EBDA6FA00A44FA5 /* Build configuration list for PBXNativeTarget "WellnessTracker" */;
+			buildPhases = (
+				FF24CA242EBDA6F900A44FA5 /* Sources */,
+				FF24CA252EBDA6F900A44FA5 /* Frameworks */,
+				FF24CA262EBDA6F900A44FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellnessTracker;
+			packageProductDependencies = (
+				FF24CA692EBE03F500A44FA5 /* FirebaseFirestore */,
+			);
+			productName = WellnessTracker;
+			productReference = FF24CA282EBDA6F900A44FA5 /* WellnessTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF24CA382EBDA6FA00A44FA5 /* WellnessTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF24CA502EBDA6FA00A44FA5 /* Build configuration list for PBXNativeTarget "WellnessTrackerTests" */;
+			buildPhases = (
+				FF24CA352EBDA6FA00A44FA5 /* Sources */,
+				FF24CA362EBDA6FA00A44FA5 /* Frameworks */,
+				FF24CA372EBDA6FA00A44FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF24CA3B2EBDA6FA00A44FA5 /* PBXTargetDependency */,
+			);
+			name = WellnessTrackerTests;
+			productName = WellnessTrackerTests;
+			productReference = FF24CA392EBDA6FA00A44FA5 /* WellnessTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF24CA422EBDA6FA00A44FA5 /* WellnessTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF24CA532EBDA6FA00A44FA5 /* Build configuration list for PBXNativeTarget "WellnessTrackerUITests" */;
+			buildPhases = (
+				FF24CA3F2EBDA6FA00A44FA5 /* Sources */,
+				FF24CA402EBDA6FA00A44FA5 /* Frameworks */,
+				FF24CA412EBDA6FA00A44FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF24CA452EBDA6FA00A44FA5 /* PBXTargetDependency */,
+			);
+			name = WellnessTrackerUITests;
+			productName = WellnessTrackerUITests;
+			productReference = FF24CA432EBDA6FA00A44FA5 /* WellnessTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF24CA202EBDA6F900A44FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF24CA272EBDA6F900A44FA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FF24CA382EBDA6FA00A44FA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF24CA272EBDA6F900A44FA5;
+					};
+					FF24CA422EBDA6FA00A44FA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FF24CA272EBDA6F900A44FA5;
+					};
+				};
+			};
+			buildConfigurationList = FF24CA232EBDA6F900A44FA5 /* Build configuration list for PBXProject "WellnessTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF24CA1F2EBDA6F900A44FA5;
+			packageReferences = (
+				FF24CA682EBE03F500A44FA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = FF24CA292EBDA6F900A44FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF24CA272EBDA6F900A44FA5 /* WellnessTracker */,
+				FF24CA382EBDA6FA00A44FA5 /* WellnessTrackerTests */,
+				FF24CA422EBDA6FA00A44FA5 /* WellnessTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF24CA262EBDA6F900A44FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF24CA342EBDA6FA00A44FA5 /* Preview Assets.xcassets in Resources */,
+				FFE383312EBE267B008B9845 /* GoogleService-Info.plist in Resources */,
+				FF24CA302EBDA6FA00A44FA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF24CA372EBDA6FA00A44FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF24CA412EBDA6FA00A44FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF24CA242EBDA6F900A44FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF24CA632EBDF7BF00A44FA5 /* EntryDetailView.swift in Sources */,
+				FF24CA612EBDF7AF00A44FA5 /* HistoryView.swift in Sources */,
+				FF24CA5F2EBDF79F00A44FA5 /* NewEntryView.swift in Sources */,
+				FF24CA6C2EBE0E1700A44FA5 /* FirestoreService.swift in Sources */,
+				FF24CA5B2EBDF77900A44FA5 /* RootView.swift in Sources */,
+				FF24CA672EBDF84700A44FA5 /* AboutView.swift in Sources */,
+				FF2481962EBE36B300CD0164 /* EmptyStateView.swift in Sources */,
+				FF24CA592EBDF73E00A44FA5 /* Models.swift in Sources */,
+				FF24CA5D2EBDF78D00A44FA5 /* DashboardView.swift in Sources */,
+				FF24CA2E2EBDA6F900A44FA5 /* ContentView.swift in Sources */,
+				FF24CA2C2EBDA6F900A44FA5 /* WellnessTrackerApp.swift in Sources */,
+				FF24CA652EBDF83700A44FA5 /* StatsView.swift in Sources */,
+				FF0943A62EBE32BD00102C61 /* NotificacionService.swift in Sources */,
+				FF9D38422EBE33160016E46E /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF24CA352EBDA6FA00A44FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF24CA3F2EBDA6FA00A44FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF24CA3B2EBDA6FA00A44FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF24CA272EBDA6F900A44FA5 /* WellnessTracker */;
+			targetProxy = FF24CA3A2EBDA6FA00A44FA5 /* PBXContainerItemProxy */;
+		};
+		FF24CA452EBDA6FA00A44FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF24CA272EBDA6F900A44FA5 /* WellnessTracker */;
+			targetProxy = FF24CA442EBDA6FA00A44FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF24CA4B2EBDA6FA00A44FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF24CA4C2EBDA6FA00A44FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FF24CA4E2EBDA6FA00A44FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WellnessTracker/WellnessTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WellnessTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = V78882UWP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unicauca.aplimovil.WellnessTracker;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = unicauca.apimovil.WellnessTracker;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = unicauca.apimovil.WellnessTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF24CA4F2EBDA6FA00A44FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WellnessTracker/WellnessTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WellnessTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = V78882UWP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unicauca.aplimovil.WellnessTracker;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = unicauca.apimovil.WellnessTracker;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = unicauca.apimovil.WellnessTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF24CA512EBDA6FA00A44FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unicauca.aplimovil.WellnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellnessTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellnessTracker";
+			};
+			name = Debug;
+		};
+		FF24CA522EBDA6FA00A44FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unicauca.aplimovil.WellnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellnessTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellnessTracker";
+			};
+			name = Release;
+		};
+		FF24CA542EBDA6FA00A44FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unicauca.aplimovil.WellnessTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WellnessTracker;
+			};
+			name = Debug;
+		};
+		FF24CA552EBDA6FA00A44FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unicauca.aplimovil.WellnessTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WellnessTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF24CA232EBDA6F900A44FA5 /* Build configuration list for PBXProject "WellnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF24CA4B2EBDA6FA00A44FA5 /* Debug */,
+				FF24CA4C2EBDA6FA00A44FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF24CA4D2EBDA6FA00A44FA5 /* Build configuration list for PBXNativeTarget "WellnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF24CA4E2EBDA6FA00A44FA5 /* Debug */,
+				FF24CA4F2EBDA6FA00A44FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF24CA502EBDA6FA00A44FA5 /* Build configuration list for PBXNativeTarget "WellnessTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF24CA512EBDA6FA00A44FA5 /* Debug */,
+				FF24CA522EBDA6FA00A44FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF24CA532EBDA6FA00A44FA5 /* Build configuration list for PBXNativeTarget "WellnessTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF24CA542EBDA6FA00A44FA5 /* Debug */,
+				FF24CA552EBDA6FA00A44FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF24CA682EBE03F500A44FA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF24CA692EBE03F500A44FA5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF24CA682EBE03F500A44FA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FF24CA202EBDA6F900A44FA5 /* Project object */;
+}
